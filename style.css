@@ -9,6 +9,8 @@
 body {
   background: #17181a;
   font-family: "Montserrat", sans-serif;
+  /* due to gsub animation */
+  overflow-x: hidden;
 }
 
 #logo {
@@ -63,6 +65,8 @@ body {
   position: relative;
   flex: 1;
   flex-basis: 25rem;
+  /* due to gsub animation */
+  overflow: hidden;
 }
 
 .hero-img img {
@@ -89,6 +93,7 @@ body {
   padding: 3rem 0rem;
   font-size: 1.5rem;
   color: rgb(216, 216, 216);
+  line-height: 2;
 }
 
 .explore {
@@ -153,7 +158,7 @@ body {
 }
 
 /* we are using these divs to hide initial state */
-/*.reveal-img,
+.reveal-img,
 .reveal-text {
   position: absolute;
   width: 100%;
@@ -161,7 +166,7 @@ body {
   background: #17181a;
   left: 0;
   top: 0;
-}*/
+}
 
 .cursor {
   width: 3rem;
