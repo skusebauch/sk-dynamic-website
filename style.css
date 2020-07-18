@@ -301,10 +301,10 @@ body.hide {
 .fashion-nr {
   font-size: 15rem;
   position: absolute;
-  left: 37%;
+  left: 45%;
   bottom: 5%;
   color: white;
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 .swipe {
