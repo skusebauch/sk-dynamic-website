@@ -19,6 +19,7 @@ body {
 }
 
 .nav-header {
+  position: relative;
   min-height: 10vh;
   font-size: 1rem;
   display: flex;
@@ -28,6 +29,7 @@ body {
   width: 80%;
   margin: auto;
   padding: 2rem 0rem;
+  z-index: 2;
 }
 
 .line1,
@@ -184,12 +186,12 @@ body {
 
 .cursor.explore-active {
   background: white;
-  transform: scale(3);
+  transform: scale(2);
 }
 
 .cursor.nav-active {
-  background: blue;
-  transform: scale(3);
+  background: lightblue;
+  transform: scale(2);
 }
 
 .cursor-text {
@@ -229,4 +231,7 @@ body {
 /* to make the button clickable - not cover up the scrollmagic */
 .scrollmagic-pin-spacer {
   position: static !important;
+}
+body.hide {
+  overflow: hidden;
 }
