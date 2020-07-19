@@ -237,6 +237,7 @@ main {
 /* to make the button clickable - not cover up the scrollmagic */
 .scrollmagic-pin-spacer {
   position: static !important;
+  overflow-x: hidden;
 }
 body.hide {
   overflow: hidden;
