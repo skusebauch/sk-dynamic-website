@@ -99,7 +99,7 @@ function navToggle(event) {
       background: "black",
     });
     gsap.to("#logo", 1, { color: "black" });
-    gsap.to(".nav-bar", 1, { clipPath: "circle(2500px at 100% -10%)" });
+    gsap.to(".nav-bar", 1, { clipPath: "circle(3000px at 100% -10%)" });
     document.body.classList.add("hide");
   } else {
     event.target.classList.remove("active");

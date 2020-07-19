@@ -425,4 +425,19 @@ body.hide {
     padding: 2rem;
     text-align: center;
   }
+  .contact a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+  .fashion-image img {
+    height: 40vh;
+    object-position: top;
+  }
+  .fashion-nr {
+    bottom: 18%;
+  }
+  .cursor {
+    display: none;
+  }
 }
