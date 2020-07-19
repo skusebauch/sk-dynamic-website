@@ -29,11 +29,11 @@ function animateSlides() {
       triggerHook: 0.25,
       reverse: false,
     })
-      .addIndicators({
-        colorStart: "white",
-        colorTrigger: "white",
-        name: "slide",
-      })
+      //.addIndicators({
+      //  colorStart: "white",
+      //  colorTrigger: "white",
+      //  name: "slide",
+      //})
       .setTween(slideTl)
       .addTo(controller);
     // new animation
@@ -48,12 +48,12 @@ function animateSlides() {
       duration: "100%",
       triggerHook: 0,
     })
-      .addIndicators({
-        colorStart: "white",
-        colorTrigger: "white",
-        name: "page",
-        indent: 200,
-      })
+      //.addIndicators({
+      //  colorStart: "white",
+      //  colorTrigger: "white",
+      //  name: "page",
+      //  indent: 200,
+      //})
       // to make the slide section sticky - pushFollowers to avoid hugh section
       .setPin(slide, { pushFollowers: false })
       .setTween(pageTl)
@@ -206,11 +206,11 @@ function fashionAnimation() {
     })
       .setPin(slide, { pushFollowers: false })
       .setTween(slideTl)
-      .addIndicators({
-        colorStart: "white",
-        colorTrigger: "white",
-        name: "fashion",
-      })
+      //.addIndicators({
+      //  colorStart: "white",
+      //  colorTrigger: "white",
+      //  name: "fashion",
+      //})
       .addTo(controller);
   });
 }
